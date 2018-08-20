@@ -11,12 +11,12 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Calendly APi webhook and invites}
   spec.description   = %q{connect ruby to Calendly APi}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://calendly.com/"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
